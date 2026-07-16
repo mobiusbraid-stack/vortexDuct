@@ -1,1 +1,3 @@
 # vortexDuct
+In my Fluid Logic Language (FLL), input events (clicks, keypresses, mouse movements) shouldn't be parsed as boring listener objects or raw JSON payloads. They are modeled as physical kinetic impacts on the fluid surface.
+VortexDuct is the core event translator. It translates raw browser pointer vectors, scrolling speeds, and multi-touch coordinates directly into dynamic Force Influx Nozzles inside the FLL grid. Moving a mouse doesn't fire an event handler—it physically opens a nozzle and pumps velocity vectors into the system execution stream, steering the code with kinetic momentum.
